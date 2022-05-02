@@ -1,0 +1,290 @@
+/* This styles the body */
+body{
+    background-color: whitesmoke;
+}
+
+/* This styles the button in the header */
+.button1{
+    font-size: 17px;
+    text-decoration: none;
+    float: right;
+    margin-right: 70px ;
+    
+}
+/* This styles the logo suite */
+
+.logo{
+    padding-left: 70px;
+}
+
+/* This styles the first section of the body */
+.center {
+    display: block;
+    margin-left: 50%;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .image1{
+      max-width: 40%;
+      max-height: 40%;
+      /* position: relative; */
+  }
+
+  .firsttxt{
+      font-size: 50px;
+      position: absolute;
+      top: 17px;
+      left: -60px;
+      margin-left: 350px;
+      padding-top: 80px;
+      font-family: 'Epilogue';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 72px;
+      line-height: 78px;
+      letter-spacing: -1px;
+  }
+
+  .secondtxt{
+    left: -60px;
+    margin-left: 350px;
+    position: relative;
+    margin-top: -200px;
+    width: 350px;
+    height: 96px;
+}
+
+.button2{
+    left: -60px;
+    margin-left: 350px;
+    position: relative;
+    top: 20px;
+    background: #172339 ;
+    color: #FAF8F6;
+    height: 32px;
+    top: calc(50% - 32px/2 + 0.5px);
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    border-radius: 6px;
+}
+
+
+.headn1{
+    position: absolute;
+    width: 190px;
+    height: 56px;
+    left: 1086px;
+    top: 100px;
+
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+}
+
+.bdy1{
+    position: absolute;
+    width: 190px;
+    height: 26px;
+    left: 1086px;
+    top: 200px;
+    color: #49566D;
+
+}
+.headn2{
+    position: absolute;
+    width: 190px;
+    height: 56px;
+    left: 1086px;
+    top: 200px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+}
+.bdy2{
+    position: absolute;
+    width: 190px;
+    height: 26px;
+    left: 1086px;
+    top: 290px;
+    color: #49566D;
+}
+.headn3{
+    position: absolute;
+    width: 190px;
+    height: 56px;
+    left: 1086px;
+    top: 300px;
+
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+}
+.bdy3{
+    position: absolute;
+    width: 190px;
+    height: 26px;
+    left: 1086px;
+    top: 400px;
+    color: #49566D;
+
+}
+
+/* This styles the last section before the footer */
+.rectangle{
+    height: 450px;
+    width: 1090px;
+    background-color: #172339;
+    /* position: absolute; */
+    margin-left: 125px;
+    border-radius: 25px;
+    z-index: 99;
+   
+}
+
+
+/* for the image and the text next to it [Image=left] and [text=right] */
+.rectangle > span:first-child{
+    float: left;
+}
+
+.rectangle > span:nth-child(2){
+    float: right;
+    margin-right: 150px;
+}
+
+.image2{
+    margin-top: -20px;
+    margin-left: 100px;
+    height: 450px;
+}
+
+.quote1{
+    /* position: absolute; */
+    left: 600px;
+    right: 0%;
+    top: 3.02%;
+    bottom: 26.56%;
+    color: #F3EDE7;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+}
+.quote2{
+    /* position: absolute; */
+    left: 600px;
+    right: 0%;
+    top: 19.02%;
+    bottom: 26.56%;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #F3EDE7;
+    letter-spacing: 0.1px;
+}
+.name{
+    /* position: absolute; */
+    color: #F3EDE7;
+    height: 32px;
+    left: 600px;
+    /* right: 52.86%; */
+    /* top: calc(50% - 32px/2 + 142.5px); */
+    margin-top: -20px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+}
+.title{
+    /* position: absolute; */
+left: 600px;
+right: 45.71%;
+top: 92.95%;
+bottom: 0%;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 2.5px;
+color: #F3EDE7;
+margin-top: -30px;
+}
+
+/* This styles the footer */
+#footer {
+    width: 100%;
+    background: #F3EDE7;
+    /* background: #bda382; */
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 15px; */
+    font-size: 0.9em;
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: 0.0833333px;
+    /* margin-top: 40px; */
+}
+
+p.copyright {
+    color: #49566D;
+    /* line-height: 30px;
+    font-size: 0.7em;
+    text-align-last: center;
+    margin-top: 350px;
+    left: 44.27%;
+    right: 44.45%;
+    top: calc(50% - 32px/2); */
+
+}
+.p1{
+    color: #49566D;
+    /* line-height: 30px; */
+    /* font-size: 0.9em; */
+    /* margin-top: 11.2px; */
+}
+
+.fa {
+    text-decoration: none;
+    color: grey;
+    margin-right: 3px;
+}
+
+
+.column{
+  float: left;
+  width: 33.33%;
+} 
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
